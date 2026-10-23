@@ -1,0 +1,5 @@
+"use client";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase/client";
+export default function CartControls({ itemId, quantity, stock }: { itemId:number; quantity:number; stock:number }) { const [busy,setBusy]=useState(false);const router=useRouter(); async function change(next:number){setBusy(true);const supabase=createClient();if(next<1){await supabase.from("cart_items").delete().eq("id",itemId);}else{const {error}=await supabase.from("cart_items").update({quantity:Math.min(next,stock)}).eq("id",itemId);if(error) alert(error.message);}router.refresh();setBusy(false);}return <div className="quantity-control"><button aria-label="Decrease quantity" disabled={busy} onClick={()=>change(quantity-1)}>−</button><span>{quantity}</span><button aria-label="Increase quantity" disabled={busy||quantity>=stock} onClick={()=>change(quantity+1)}>+</button><button className="remove-link" disabled={busy} onClick={()=>change(0)}>Remove</button></div>; }

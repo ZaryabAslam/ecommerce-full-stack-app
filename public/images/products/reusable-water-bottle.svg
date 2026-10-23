@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<title>Reusable Water Bottle</title>
+<defs><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e2ecea"/><stop offset="1" stop-color="#faf7ef"/></linearGradient></defs>
+<rect width="800" height="800" rx="26" fill="url(#wash)"/><circle cx="405" cy="363" r="285" fill="url(#halo)"/><circle cx="400" cy="400" r="278" fill="none" stroke="#4e8d88" stroke-opacity=".10" stroke-width="2"/><path d="M110 678 Q400 659 690 678" stroke="#4e8d88" stroke-opacity=".13" stroke-width="2" fill="none"/>
+
+ <ellipse cx="400" cy="636" rx="130" ry="23" fill="#263f3d" opacity=".12"/>
+ <rect x="350" y="150" width="100" height="63" rx="16" fill="#364d4b"/><rect x="362" y="122" width="76" height="43" rx="11" fill="#6c9992"/>
+ <path d="M347 209 Q347 190 370 190 H430 Q453 190 453 209 L476 265 Q491 296 491 330 V570 Q491 600 461 600 H339 Q309 600 309 570 V330 Q309 296 324 265Z" fill="#84b4ae" stroke="#3e7772" stroke-width="9"/>
+ <path d="M331 335 V538" stroke="#bde0d9" stroke-width="10" stroke-linecap="round"/><path d="M354 250 H446" stroke="#4d8b83" stroke-width="7" stroke-linecap="round"/>
+ <rect x="355" y="399" width="90" height="67" rx="15" fill="#e9f0e8" opacity=".9"/><path d="M376 419 H424 M376 439 H415" stroke="#5e8c83" stroke-width="6" stroke-linecap="round"/>
+<circle cx="650" cy="140" r="8" fill="#4e8d88" opacity=".2"/><circle cx="164" cy="598" r="5" fill="#4e8d88" opacity=".28"/>
+</svg>

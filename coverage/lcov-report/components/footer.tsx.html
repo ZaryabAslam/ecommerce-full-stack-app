@@ -1,0 +1,118 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for components/footer.tsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">components</a> footer.tsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>3/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>3/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+        <template id="filterTemplate">
+            <div class="quiet">
+                Filter:
+                <input type="search" id="fileSearch">
+            </div>
+        </template>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import Link from "next/link";
+import { ArrowUpRight, Instagram, ShieldCheck, Truck } from "lucide-react";
+export default function Footer() {
+  return &lt;footer className="footer footer-enhanced"&gt;
+    &lt;div className="footer-top"&gt;&lt;div className="footer-brand-block"&gt;&lt;Link href="/" className="brand"&gt;&lt;span className="brand-mark"&gt;b.&lt;/span&gt;&lt;span&gt;brightcart&lt;small className="brand-subtitle"&gt;GOOD FINDS, DAILY&lt;/small&gt;&lt;/span&gt;&lt;/Link&gt;&lt;p&gt;Thoughtful finds for everyday living. A little more joy in the things you use every day.&lt;/p&gt;&lt;span className="footer-social"&gt;&lt;Instagram size={16}/&gt; Curated for everyday&lt;/span&gt;&lt;/div&gt;
+      &lt;div className="footer-links"&gt;&lt;strong&gt;Explore&lt;/strong&gt;&lt;Link href="/products"&gt;Shop all&lt;/Link&gt;&lt;Link href="/products?category=Electronics"&gt;Tech &amp; gadgets&lt;/Link&gt;&lt;Link href="/products?category=Home"&gt;Home living&lt;/Link&gt;&lt;Link href="/products?category=Accessories"&gt;Accessories&lt;/Link&gt;&lt;/div&gt;
+      &lt;div className="footer-links"&gt;&lt;strong&gt;Your account&lt;/strong&gt;&lt;Link href="/account"&gt;Account overview&lt;/Link&gt;&lt;Link href="/account/orders"&gt;Order history&lt;/Link&gt;&lt;Link href="/account/profile"&gt;Profile settings&lt;/Link&gt;&lt;Link href="/cart"&gt;Shopping bag&lt;/Link&gt;&lt;/div&gt;
+      &lt;div className="footer-promise"&gt;&lt;div&gt;&lt;Truck size={19}/&gt;&lt;span&gt;&lt;strong&gt;Delivery, your way&lt;/strong&gt;&lt;small&gt;Free standard shipping over $50&lt;/small&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ShieldCheck size={19}/&gt;&lt;span&gt;&lt;strong&gt;Secure checkout&lt;/strong&gt;&lt;small&gt;Payments handled by Stripe&lt;/small&gt;&lt;/span&gt;&lt;/div&gt;&lt;Link href="/products" className="text-link"&gt;Find your next favorite &lt;ArrowUpRight size={14}/&gt;&lt;/Link&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div className="footer-bottom"&gt;&lt;small&gt;© {new Date().getFullYear()} BrightCart. All rights reserved.&lt;/small&gt;&lt;small&gt;Secure test checkout · No live charges while in Stripe test mode.&lt;/small&gt;&lt;/div&gt;
+  &lt;/footer&gt;;
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
+                at 2026-10-20T11:00:23.389Z
+            </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
+</html>
+    

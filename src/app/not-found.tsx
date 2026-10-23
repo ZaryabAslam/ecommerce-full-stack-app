@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <section className="empty-state not-found"><span className="eyebrow">NOT FOUND</span><h1>This page took a little detour.</h1><p>We couldn’t find what you were looking for.</p><Link className="button button-primary" href="/products">Back to shopping</Link></section>}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<title>Cotton T Shirt</title>
+<defs><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e5ebed"/><stop offset="1" stop-color="#faf7ef"/></linearGradient></defs>
+<rect width="800" height="800" rx="26" fill="url(#wash)"/><circle cx="405" cy="363" r="285" fill="url(#halo)"/><circle cx="400" cy="400" r="278" fill="none" stroke="#7b9b9e" stroke-opacity=".10" stroke-width="2"/><path d="M110 678 Q400 659 690 678" stroke="#7b9b9e" stroke-opacity=".13" stroke-width="2" fill="none"/>
+
+ <ellipse cx="400" cy="615" rx="190" ry="28" fill="#263b40" opacity=".10"/>
+ <path d="M302 220 L355 191 Q400 224 445 191 L498 220 L602 290 L545 382 L491 349 L491 577 Q400 600 309 577 L309 349 L255 382 L198 290Z" fill="#7fa3a4" stroke="#547879" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M356 195 Q400 272 444 195" fill="#e6eeeb" stroke="#547879" stroke-width="9" stroke-linecap="round"/>
+ <path d="M328 333 V554 M472 333 V554" stroke="#a9c2c0" stroke-width="5" opacity=".75"/><path d="M326 562 Q400 578 474 562" stroke="#547879" stroke-width="5" fill="none"/>
+<circle cx="650" cy="140" r="8" fill="#7b9b9e" opacity=".2"/><circle cx="164" cy="598" r="5" fill="#7b9b9e" opacity=".28"/>
+</svg>

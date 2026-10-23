@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<title>Ceramic Planter</title>
+<defs><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6eee4"/><stop offset="1" stop-color="#faf7ef"/></linearGradient></defs>
+<rect width="800" height="800" rx="26" fill="url(#wash)"/><circle cx="405" cy="363" r="285" fill="url(#halo)"/><circle cx="400" cy="400" r="278" fill="none" stroke="#718764" stroke-opacity=".10" stroke-width="2"/><path d="M110 678 Q400 659 690 678" stroke="#718764" stroke-opacity=".13" stroke-width="2" fill="none"/>
+
+ <ellipse cx="400" cy="632" rx="170" ry="24" fill="#26392e" opacity=".12"/>
+ <path d="M400 360 C382 300 344 248 300 213 M400 350 C425 286 471 244 522 222 M398 340 C400 263 399 216 405 166 M390 388 C337 342 289 334 250 337 M409 393 C471 356 520 355 556 370" stroke="#3e6a4b" stroke-width="15" fill="none" stroke-linecap="round"/>
+ <g fill="#7e9b6a"><ellipse cx="296" cy="207" rx="58" ry="24" transform="rotate(38 296 207)"/><ellipse cx="518" cy="218" rx="60" ry="24" transform="rotate(-36 518 218)"/><ellipse cx="405" cy="169" rx="27" ry="58"/><ellipse cx="254" cy="335" rx="58" ry="23" transform="rotate(6 254 335)"/><ellipse cx="554" cy="368" rx="55" ry="24" transform="rotate(-8 554 368)"/></g>
+ <path d="M284 393 H516 L483 581 Q478 601 454 601 H346 Q322 601 317 581Z" fill="#e6dbca" stroke="#b8a58d" stroke-width="9"/><ellipse cx="400" cy="395" rx="116" ry="29" fill="#b69b7b"/><ellipse cx="400" cy="393" rx="96" ry="18" fill="#3e3327"/><path d="M335 470 Q340 530 351 557" stroke="#fff5e8" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+<circle cx="650" cy="140" r="8" fill="#718764" opacity=".2"/><circle cx="164" cy="598" r="5" fill="#718764" opacity=".28"/>
+</svg>

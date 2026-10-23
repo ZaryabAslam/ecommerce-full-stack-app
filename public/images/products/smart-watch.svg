@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<title>Smart Watch</title>
+<defs><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee6dd"/><stop offset="1" stop-color="#faf7ef"/></linearGradient></defs>
+<rect width="800" height="800" rx="26" fill="url(#wash)"/><circle cx="405" cy="363" r="285" fill="url(#halo)"/><circle cx="400" cy="400" r="278" fill="none" stroke="#8b684c" stroke-opacity=".10" stroke-width="2"/><path d="M110 678 Q400 659 690 678" stroke="#8b684c" stroke-opacity=".13" stroke-width="2" fill="none"/>
+
+ <ellipse cx="400" cy="625" rx="118" ry="25" fill="#3b3026" opacity=".12"/>
+ <path d="M325 195 Q325 170 350 170 H450 Q475 170 475 195 L460 305 H340Z" fill="#c39c7d"/>
+ <path d="M340 495 H460 L475 615 Q475 640 450 640 H350 Q325 640 325 615Z" fill="#c39c7d"/>
+ <rect x="268" y="275" width="264" height="258" rx="65" fill="#242b28"/><rect x="286" y="293" width="228" height="222" rx="51" fill="#4c5c51"/>
+ <rect x="305" y="312" width="190" height="184" rx="40" fill="#1f2925"/>
+ <circle cx="400" cy="405" r="58" fill="none" stroke="#c9a67e" stroke-width="11"/><path d="M400 362 V406 L434 426" stroke="#f4eee4" stroke-width="9" fill="none" stroke-linecap="round"/>
+ <circle cx="400" cy="405" r="7" fill="#e4a176"/><rect x="530" y="365" width="15" height="70" rx="7" fill="#343a35"/>
+<circle cx="650" cy="140" r="8" fill="#8b684c" opacity=".2"/><circle cx="164" cy="598" r="5" fill="#8b684c" opacity=".28"/>
+</svg>

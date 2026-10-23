@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<title>Insulated Travel Mug</title>
+<defs><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9e6d9"/><stop offset="1" stop-color="#faf7ef"/></linearGradient></defs>
+<rect width="800" height="800" rx="26" fill="url(#wash)"/><circle cx="405" cy="363" r="285" fill="url(#halo)"/><circle cx="400" cy="400" r="278" fill="none" stroke="#546b58" stroke-opacity=".10" stroke-width="2"/><path d="M110 678 Q400 659 690 678" stroke="#546b58" stroke-opacity=".13" stroke-width="2" fill="none"/>
+
+ <ellipse cx="400" cy="625" rx="145" ry="23" fill="#25372a" opacity=".12"/>
+ <path d="M310 280 Q310 254 338 254 H462 Q490 254 490 280 L470 568 Q467 594 440 594 H360 Q333 594 330 568Z" fill="#dfe6d9" stroke="#8a9b82" stroke-width="9"/>
+ <path d="M324 335 H476 L462 551 Q460 566 440 566 H360 Q340 566 338 551Z" fill="#75927a"/>
+ <rect x="295" y="230" width="210" height="58" rx="18" fill="#3a5441"/><rect x="345" y="205" width="110" height="28" rx="10" fill="#879c86"/>
+ <path d="M356 385 V521" stroke="#b8ccaf" stroke-width="9" stroke-linecap="round"/><rect x="352" y="433" width="96" height="48" rx="11" fill="#e3e9dc"/><path d="M369 449 H430 M369 465 H417" stroke="#769078" stroke-width="5" stroke-linecap="round"/>
+<circle cx="650" cy="140" r="8" fill="#546b58" opacity=".2"/><circle cx="164" cy="598" r="5" fill="#546b58" opacity=".28"/>
+</svg>

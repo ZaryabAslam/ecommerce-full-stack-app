@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<title>Travel Duffel Bag</title>
+<defs><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8e8dc"/><stop offset="1" stop-color="#faf7ef"/></linearGradient></defs>
+<rect width="800" height="800" rx="26" fill="url(#wash)"/><circle cx="405" cy="363" r="285" fill="url(#halo)"/><circle cx="400" cy="400" r="278" fill="none" stroke="#5d6b57" stroke-opacity=".10" stroke-width="2"/><path d="M110 678 Q400 659 690 678" stroke="#5d6b57" stroke-opacity=".13" stroke-width="2" fill="none"/>
+
+ <ellipse cx="400" cy="625" rx="230" ry="26" fill="#273328" opacity=".12"/>
+ <path d="M300 310 Q310 205 400 205 Q490 205 500 310" fill="none" stroke="#2f4634" stroke-width="20" stroke-linecap="round"/>
+ <path d="M200 353 Q200 322 235 316 L565 316 Q600 322 600 353 L575 558 Q570 589 535 589 H265 Q230 589 225 558Z" fill="#73846b" stroke="#3f5942" stroke-width="10"/>
+ <path d="M235 350 L565 350" stroke="#a2af95" stroke-width="8"/><rect x="286" y="390" width="228" height="124" rx="17" fill="#596f53" stroke="#3f5942" stroke-width="7"/><path d="M330 417 H470" stroke="#a2b096" stroke-width="6" stroke-linecap="round"/><rect x="374" y="511" width="52" height="20" rx="7" fill="#d4b48d"/>
+<circle cx="650" cy="140" r="8" fill="#5d6b57" opacity=".2"/><circle cx="164" cy="598" r="5" fill="#5d6b57" opacity=".28"/>
+</svg>

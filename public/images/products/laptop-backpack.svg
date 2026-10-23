@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<title>Laptop Backpack</title>
+<defs><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6ebe1"/><stop offset="1" stop-color="#faf7ef"/></linearGradient></defs>
+<rect width="800" height="800" rx="26" fill="url(#wash)"/><circle cx="405" cy="363" r="285" fill="url(#halo)"/><circle cx="400" cy="400" r="278" fill="none" stroke="#3c5948" stroke-opacity=".10" stroke-width="2"/><path d="M110 678 Q400 659 690 678" stroke="#3c5948" stroke-opacity=".13" stroke-width="2" fill="none"/>
+
+ <ellipse cx="405" cy="631" rx="190" ry="27" fill="#26392e" opacity=".12"/>
+ <path d="M300 302 Q280 255 309 218 Q337 190 365 229 L388 278 M500 302 Q520 255 491 218 Q463 190 435 229 L412 278" fill="none" stroke="#243b2d" stroke-width="25" stroke-linecap="round"/>
+ <rect x="252" y="263" width="296" height="350" rx="75" fill="#496951" stroke="#2f4937" stroke-width="9"/>
+ <path d="M285 383 Q400 346 515 383 L515 550 Q400 585 285 550Z" fill="#6f8b72" stroke="#2f4937" stroke-width="8"/>
+ <path d="M327 271 Q400 300 473 271" stroke="#9bb39b" stroke-width="9" fill="none"/>
+ <rect x="365" y="435" width="70" height="92" rx="12" fill="#e2e6d7" opacity=".94"/><path d="M380 458 H420 M380 476 H420 M380 494 H410" stroke="#8b9a84" stroke-width="5" stroke-linecap="round"/>
+<circle cx="650" cy="140" r="8" fill="#3c5948" opacity=".2"/><circle cx="164" cy="598" r="5" fill="#3c5948" opacity=".28"/>
+</svg>

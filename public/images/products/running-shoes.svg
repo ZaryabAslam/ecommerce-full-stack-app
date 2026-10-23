@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<title>Running Shoes</title>
+<defs><radialGradient id="halo"><stop offset="0" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1e4d7"/><stop offset="1" stop-color="#faf7ef"/></linearGradient></defs>
+<rect width="800" height="800" rx="26" fill="url(#wash)"/><circle cx="405" cy="363" r="285" fill="url(#halo)"/><circle cx="400" cy="400" r="278" fill="none" stroke="#c74f3a" stroke-opacity=".10" stroke-width="2"/><path d="M110 678 Q400 659 690 678" stroke="#c74f3a" stroke-opacity=".13" stroke-width="2" fill="none"/>
+
+ <ellipse cx="402" cy="595" rx="260" ry="30" fill="#542c21" opacity=".12"/>
+ <path d="M155 485 Q193 465 226 409 L274 331 Q289 315 303 343 L362 430 Q386 466 438 482 L559 510 Q614 523 627 564 Q634 587 602 596 L211 596 Q166 593 148 565 Q131 539 155 485Z" fill="#d9513c" stroke="#9c392b" stroke-width="9" stroke-linejoin="round"/>
+ <path d="M273 340 L320 417 Q335 440 371 455 L437 480 L378 510 L260 492 L221 467Z" fill="#f6f0e8"/>
+ <path d="M190 535 Q305 552 411 550 Q522 548 612 568 L604 593 L208 595 Q173 590 158 568Z" fill="#f7f2e8" stroke="#baaa9a" stroke-width="5"/>
+ <path d="M296 399 L356 455 M279 421 L337 469 M267 444 L321 482" stroke="#687c68" stroke-width="9" stroke-linecap="round"/><path d="M415 495 L493 517" stroke="#8e3427" stroke-width="8" stroke-linecap="round"/>
+<circle cx="650" cy="140" r="8" fill="#c74f3a" opacity=".2"/><circle cx="164" cy="598" r="5" fill="#c74f3a" opacity=".28"/>
+</svg>
