@@ -30,7 +30,13 @@ export async function POST(request: Request) {
     }
 
     pendingOrderId = Number(draft.order_id);
-    const origin = process.env.NEXT_PUBLIC_SITE_URL || new URL(request.url).origin;
+    // Prefer Vercel's deployment host in hosted environments so a stale localhost env var cannot send customers back to localhost.
+    const vercelHost = process.env.VERCEL_ENV === 'production'
+      ? process.env.VERCEL_PROJECT_PRODUCTION_URL
+      : process.env.VERCEL_URL;
+    const origin = vercelHost
+      ? `https://${vercelHost}`
+      : process.env.NEXT_PUBLIC_SITE_URL || new URL(request.url).origin;
     const stripe = getStripe();
     const session = await stripe.checkout.sessions.create({
       mode: 'payment',
